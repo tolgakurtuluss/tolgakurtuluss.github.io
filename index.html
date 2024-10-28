@@ -15,112 +15,110 @@
             align-items: center;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f9;
+            background-color: #f8f9fa;
+            color: #333;
         }
 
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 20px;
-            max-width: 1000px;
+        .container {
+            max-width: 900px;
             width: 100%;
-            background: white;
+            background: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
         }
 
-        .section-1 {
-            background-color: #3a3a3a;
-            color: #fff;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 30px;
             text-align: center;
         }
 
-        .section-1 h2 {
-            font-size: 1.8em;
-            margin: 10px 0;
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
         }
 
-        .section-1 h3 {
-            font-size: 1.2em;
-            color: #aaa;
-            margin-bottom: 20px;
+        .header h3 {
+            margin: 5px 0;
+            font-weight: normal;
+            color: #adb5bd;
         }
 
-        .section-1 p {
-            font-size: 0.9em;
-            margin-bottom: 10px;
-        }
-
-        .section-1 a {
-            color: #fff;
+        .header a {
+            color: #ffc107;
             font-size: 1.5em;
             margin: 0 10px;
             transition: color 0.3s;
         }
 
-        .section-1 a:hover {
-            color: #ffd700;
+        .header a:hover {
+            color: #e0a800;
         }
 
-        .section-2 {
-            padding: 40px;
-            color: #333;
-            font-size: 1em;
+        .content {
+            padding: 30px;
+            line-height: 1.6;
         }
 
-        .section-2 h2 {
-            font-size: 1.5em;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 0;
-        }
-
-        .section-2 p {
-            margin: 10px 0;
-        }
-
-        .section-2 a {
-            color: #007acc;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .section-2 a:hover {
-            color: #005f99;
-        }
-
-        .experience, .projects, .studies {
+        .section {
             margin-bottom: 20px;
         }
 
-        .projects p, .experience p {
+        .section h2 {
+            font-size: 1.5em;
+            color: #343a40;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 5px;
+        }
+
+        .about-me, .skills {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .skill {
             display: flex;
             align-items: center;
+            gap: 10px;
         }
 
-        .projects p i, .experience p i {
+        .skill i {
+            color: #007bff;
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-button i {
             margin-right: 8px;
-        }
-
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="section-1">
-            <i class="fas fa-wave-square fa-3x"></i>
-            <h2>Tolga Kurtuluş</h2>
-            <h3>Data Analyst</h3>
-            <p>Istanbul, TURKEY</p>
+    <div class="container">
+        <div class="header">
+            <h1>Tolga Kurtuluş</h1>
+            <h3>Data Analyst | AI Enthusiast</h3>
             <div>
                 <a href="https://orcid.org/0000-0003-3610-0188" target="_blank"><i class="far fa-id-badge"></i></a>
                 <a href="https://www.linkedin.com/in/tolgakurtulus/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -128,37 +126,50 @@
                 <a href="https://medium.com/@tolgakurtulus" target="_blank"><i class="fab fa-medium"></i></a>
             </div>
         </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p>I am currently working at Turkish Airlines as a Revenue Management Specialist, focusing on Statistical Data Analysis, Revenue Management, and Data Science. I hold an MSc in Statistics from Yildiz Technical University and a BSc from Middle East Technical University.</p>
-            
-            <div class="experience">
-                <h2>Experience</h2>
-                <p>📈 Revenue Management Specialist at <a href="https://www.turkishairlines.com/" target="_blank">Turkish Airlines 🛫</a> (Sep 2019 - Present)</p>
-                <p>📊 Data Management Intern at <a href="https://www.isbank.com.tr/" target="_blank">Türkiye İş Bankası 🏦</a> (Jul 2018 - Aug 2020)</p>
-                <p>🎮 Game Developer Intern at <a href="https://atom.org.tr/" target="_blank">ATOM ODTÜ Teknokent 🏢</a> (Jun 2017 - Jul 2017)</p>
+
+        <div class="content">
+            <div class="section about-me">
+                <h2>About Me</h2>
+                <p>👋 Hi, I’m an AI Enthusiast and Experienced Data Analyst.</p>
+                <p>👀 I’m interested in LLM, Deep Learning, Machine Learning, and NLP tasks.</p>
+                <p>🎓 BSc/MSc in Statistics</p>
             </div>
 
-            <div class="studies">
-                <h2>MSc. Studies</h2>
-                <p>🔹 <a href="https://tolgakurtuluss.github.io/twittersunum.html" target="_blank">Social Network Analysis</a> | Analysis of friendships among Yildiz Technical University Master's students.</p>
-                <p>🔹 <a href="https://tolgakurtuluss.github.io/sosyalagsunum.html" target="_blank">Social Network Analysis Project</a> | IST 5125 lecture project on SNA <a href="http://www.bologna.yildiz.edu.tr/index.php?r=course/view&id=9426&aid=79" target="_blank">[Link]</a></p>
+            <div class="section skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <i class="fas fa-chart-bar"></i> R 📊
+                </div>
+                <div class="skill">
+                    <i class="fas fa-code"></i> Python 🐍
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i> SQL 🗃️
+                </div>
+                <div class="skill">
+                    <i class="fas fa-robot"></i> Machine Learning 🤖
+                </div>
+                <div class="skill">
+                    <i class="fas fa-brain"></i> Deep Learning 🧠
+                </div>
+                <div class="skill">
+                    <i class="fas fa-language"></i> Natural Language Processing (NLP) 📜💬🤖
+                </div>
+                <div class="skill">
+                    <i class="fas fa-book"></i> Large Language Models (LLM) 📚🔤🤯
+                </div>
+                <div class="skill">
+                    <i class="fas fa-paint-brush"></i> Generative Artificial Intelligence Models 🖌️🧠🤖
+                </div>
             </div>
 
-            <div class="projects">
-                <h2>Projects</h2>
-                <p><i class="fas fa-running"></i> <a href="https://github.com/tolgakurtuluss/running-assistant-opencv-yolo" target="_blank">AI Running Assistant</a> | Recommendations for optimal running conditions using OpenCV, YOLOv2, and OpenWeatherMap.</p>
-                <p><i class="fas fa-plane"></i> <a href="https://tolgakurtuluss.github.io/thyfeb2021.html" target="_blank">Turkish Airlines Tariff Analysis</a> | 3D visualization of current destinations.</p>
-                <p><i class="fas fa-tint"></i> <a href="https://www.linkedin.com/feed/update/urn:li:activity:6743954159243948032/" target="_blank">Istanbul Dams Analysis</a> | Visualizing occupancy rates over 15, 10, and 5 years.</p>
-                <p><i class="fas fa-syringe"></i> <a href="https://www.linkedin.com/feed/update/urn:li:share:6743601477320757248" target="_blank">Covid-19 Plot</a> | Visualizations using R and ggplot2 <a href="https://github.com/tolgakurtuluss/covid19saglikbakanligimap" target="_blank">(GitHub)</a></p>
-                <p><i class="fas fa-plane"></i> <a href="https://tolgakurtuluss.shinyapps.io/tk1919/" target="_blank">TK1919 Shiny Dashboard</a> | Analysis of Turkish Airlines flight on 19 May.</p>
-                <p><i class="fas fa-plane"></i> <a href="https://tolgakurtuluss.shinyapps.io/tk1920/" target="_blank">TK1920 Shiny Dashboard</a> | Analysis of Turkish Airlines flight on 23 Apr.</p>
-                <p><i class="fas fa-burger-soda"></i> <a href="https://medium.com/@tolgakurtulus/burger-kingde-en-besleyici-%C3%BCr%C3%BCn-kombinasyonunu-python-ve-repl-it-af740ed1f71c" target="_blank">Burger King Menu Optimization</a> | Optimizing menu for nutrition with Python.</p>
-                <p><i class="fas fa-car"></i> <a href="https://github.com/tolgakurtuluss/tomtomtrafikendeksi" target="_blank">TomTom Traffic Index</a> | Analysis of curfew impact on Istanbul's traffic.</p>
+            <div class="section contact">
+                <h2>Contact</h2>
+                <p>Feel free to reach out to me directly:</p>
+                <a href="mailto:tolgakurtulus95@gmail.com" class="contact-button">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
             </div>
-
-            <h2>Contact</h2>
-            <p><a href="mailto:tolgakurtulus95@gmail.com">tolgakurtulus95@gmail.com</a></p>
         </div>
     </div>
 </body>
