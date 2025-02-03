@@ -37,7 +37,7 @@
 
         .header h1 {
             margin: 0;
-            font-size: 2em;
+            font-size: 2.5em;
         }
 
         .header h3 {
@@ -67,26 +67,26 @@
         }
 
         .section h2 {
-            font-size: 1.5em;
+            font-size: 1.8em;
             color: #343a40;
             margin-bottom: 10px;
             border-bottom: 2px solid #e9ecef;
             padding-bottom: 5px;
         }
 
-        .about-me, .skills {
+        .about-me, .skills, .presentations {
             display: flex;
             flex-direction: column;
             gap: 8px;
         }
 
-        .skill {
+        .skill, .presentation {
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
-        .skill i {
+        .skill i, .presentation i {
             color: #007bff;
         }
 
@@ -112,6 +112,23 @@
         .contact-button i {
             margin-right: 8px;
         }
+
+        .presentation-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .presentation {
+            flex: 1 1 45%; /* Her bir sunum %45 genişlikte olacak */
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .presentation {
+                flex: 1 1 100%; /* Küçük ekranlarda her sunum tam genişlikte olacak */
+            }
+        }
     </style>
 </head>
 <body>
@@ -135,6 +152,48 @@
                 <p>🎓 BSc/MSc in Statistics</p>
             </div>
 
+            <div class="section presentations">
+                <h2>Presentations</h2>
+                <div class="presentation-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7289893247739449345/" target="_blank">LLM Temelleri ve Geleceği</a> 
+                        @ 
+                        <a href="https://www.linkedin.com/company/dsc-tobb-university-of-economics-technology/posts/?feedView=all" target="_blank">Google DSC TOBB University of Economics & Technology</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://virgosol.com/" target="_blank">LLM Temelleri ve Özelleşmiş Araçlar Eğitimi</a> 
+                        @ 
+                        <a href="https://virgosol.com/" target="_blank">Virgosol</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://x.com/Onr_Kls/status/1763546609751658555?t=srmolNfUq4ppOmhhjCFRuw&s=19" target="_blank">Quantization of Large Language Models</a> 
+                        @ 
+                        <a href="https://x.com/bouncompec" target="_blank">BOUN Compec - GenAI Online Talk Series</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.youtube.com/watch?v=ba7jV79qmZU" target="_blank">Teknasyon Tech Meetup 42 - LLM Ne der?</a> 
+                        @ 
+                        <a href="https://www.youtube.com/@TeknasyonTech/videos?view=0&sort=p&shelf_id=2" target="_blank">Teknasyon YouTube</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://kommunity.com/istanbulcoders/events/langchain-buyuk-dil-modelleriyle-llm-yapay-zeka-uygulamasi-gelistirme-216ad91f" target="_blank">LangChain: Büyük Dil Modelleriyle (LLM) Yapay Zeka Uygulaması Geliştirme</a> 
+                        @ 
+                        <a href="https://www.meetup.com/tr-TR/Istanbul-Hackers/?msockid=0f4acb29c65e651f3310df85c7f764e9/" target="_blank">Istanbul Coders</a>
+                    </div>
+                    
+                </div>
+            </div>
+
             <div class="section skills">
                 <h2>Skills</h2>
                 <div class="skill">
@@ -153,13 +212,13 @@
                     <i class="fas fa-brain"></i> Deep Learning 🧠
                 </div>
                 <div class="skill">
-                    <i class="fas fa-language"></i> Natural Language Processing (NLP) 📜💬🤖
+                    <i class="fas fa-language"></i> Natural Language Processing (NLP) 📜
                 </div>
                 <div class="skill">
-                    <i class="fas fa-book"></i> Large Language Models (LLM) 📚🔤🤯
+                    <i class="fas fa-book"></i> Large Language Models (LLM) 📚
                 </div>
                 <div class="skill">
-                    <i class="fas fa-paint-brush"></i> Generative Artificial Intelligence Models 🖌️🧠🤖
+                    <i class="fas fa-paint-brush"></i> Generative Artificial Intelligence Models 🤖
                 </div>
             </div>
 
