@@ -1,61 +1,249 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tolga Kurtuluş Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
 
-{% if page.url == "/" %}
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .header h3 {
+            margin: 5px 0;
+            font-weight: normal;
+            color: #adb5bd;
+        }
+
+        .header a {
+            color: #ffc107;
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .header a:hover {
+            color: #e0a800;
+        }
+
+        .content {
+            padding: 30px;
+            line-height: 1.6;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #343a40;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 5px;
+        }
+
+        .about-me, .skills, .presentations {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .skill, .presentation {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .skill i, .presentation i {
+            color: #007bff;
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-button i {
+            margin-right: 8px;
+        }
+
+        .presentation-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .presentation {
+            flex: 1 1 45%; /* Her bir sunum %45 genişlikte olacak */
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .presentation {
+                flex: 1 1 100%; /* Küçük ekranlarda her sunum tam genişlikte olacak */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tolga Kurtuluş</h1>
+            <h3>Data Analyst | AI Enthusiast</h3>
+            <div>
+                <a href="https://orcid.org/0000-0003-3610-0188" target="_blank"><i class="far fa-id-badge"></i></a>
+                <a href="https://www.linkedin.com/in/tolgakurtulus/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/tolgakurtuluss/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@tolgakurtulus" target="_blank"><i class="fab fa-medium"></i></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section about-me">
+                <h2>About Me</h2>
+                <p>👋 Hi, I’m an AI Enthusiast and Experienced Data Analyst.</p>
+                <p>👀 I’m interested in LLM, Deep Learning, Machine Learning, and NLP tasks.</p>
+                <p>🎓 BSc/MSc in Statistics</p>
+            </div>
+
+            <div class="section presentations">
+                <h2>Presentations</h2>
+                <div class="presentation-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.youtube.com/watch?v=yRraDgrZees" target="_blank">LLM Parameters - 🎥 YouTube</a> 
+                        @ 
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7309982617167130625/" target="_blank">Developer MultiGroup</a>
+                    </div>
+
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.youtube.com/watch?v=A88XskCu-Vc" target="_blank">Google Gemini API Details - 🎥 YouTube</a> 
+                        @ 
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7308511605284114432/" target="_blank">Developer MultiGroup</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7289893247739449345/" target="_blank">LLM Temelleri ve Geleceği</a> 
+                        @ 
+                        <a href="https://www.linkedin.com/company/dsc-tobb-university-of-economics-technology/posts/?feedView=all" target="_blank">Google DSC TOBB University of Economics & Technology</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://virgosol.com/" target="_blank">LLM Temelleri ve Özelleşmiş Araçlar Eğitimi</a> 
+                        @ 
+                        <a href="https://virgosol.com/" target="_blank">Virgosol</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://x.com/Onr_Kls/status/1763546609751658555?t=srmolNfUq4ppOmhhjCFRuw&s=19" target="_blank">Quantization of Large Language Models</a> 
+                        @ 
+                        <a href="https://x.com/bouncompec" target="_blank">BOUN Compec - GenAI Online Talk Series</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://www.youtube.com/watch?v=ba7jV79qmZU" target="_blank">Teknasyon Tech Meetup 42 - LLM Ne der? - 🎥 YouTube</a> 
+                        @ 
+                        <a href="https://www.youtube.com/@TeknasyonTech/videos?view=0&sort=p&shelf_id=2" target="_blank">Teknasyon YouTube</a>
+                    </div>
+                    
+                    <div class="presentation" style="flex: 1 1 50%;">
+                        <i class="fas fa-file-alt"></i> 
+                        <a href="https://kommunity.com/istanbulcoders/events/langchain-buyuk-dil-modelleriyle-llm-yapay-zeka-uygulamasi-gelistirme-216ad91f" target="_blank">LangChain: Büyük Dil Modelleriyle (LLM) Yapay Zeka Uygulaması Geliştirme</a> 
+                        @ 
+                        <a href="https://www.meetup.com/tr-TR/Istanbul-Hackers/?msockid=0f4acb29c65e651f3310df85c7f764e9/" target="_blank">Istanbul Coders</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="section skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <i class="fas fa-chart-bar"></i> R 📊
+                </div>
+                <div class="skill">
+                    <i class="fas fa-code"></i> Python 🐍
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i> SQL 🗃️
+                </div>
+                <div class="skill">
+                    <i class="fas fa-robot"></i> Machine Learning 🤖
+                </div>
+                <div class="skill">
+                    <i class="fas fa-brain"></i> Deep Learning 🧠
+                </div>
+                <div class="skill">
+                    <i class="fas fa-language"></i> Natural Language Processing (NLP) 📜
+                </div>
+                <div class="skill">
+                    <i class="fas fa-book"></i> Large Language Models (LLM) 📚
+                </div>
+                <div class="skill">
+                    <i class="fas fa-paint-brush"></i> Generative Artificial Intelligence Models 🤖
+                </div>
+            </div>
+
+            <div class="section contact">
+                <h2>Contact</h2>
+                <p>Feel free to reach out to me directly:</p>
+                <a href="mailto:tolgakurtulus95@gmail.com" class="contact-button">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="row">
-
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
-
-    </div>
-</section>
-
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-
+</body>
+</html>
