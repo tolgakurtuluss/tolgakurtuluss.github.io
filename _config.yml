@@ -20,9 +20,9 @@ author: tolga kurtulus
 ###############################################
 
 navbar-links:
-  ~./home: "https://tolgakurtuluss.github.io"
-  About Me: "aboutme"
-  Resources:
+  home: "https://tolgakurtuluss.github.io"
+  about me: "aboutme"
+  resources:
     - tags: "https://tolgakurtuluss.github.io/tags/"
   
 
