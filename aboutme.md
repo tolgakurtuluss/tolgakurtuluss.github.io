@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tolga Kurtuluş Portfolio
+title: aboutme
 subtitle: Data Analyst | AI Enthusiast
 ---
 
