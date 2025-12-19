@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kişisel Twitter Ağımın Analizi"
+title: "Twitter Ağ Analizi (Pt-1): Kişisel Ağ"
 subtitle: "R, igraph ve visNetwork Kullanarak Etkileşim Haritası"
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
@@ -52,10 +52,6 @@ Analiz sonucunda, kendi hesabım olan `tolgaakurtuluss`'un hem en çok etkileşi
 
 {: .box-note}
 **Not:** Analizin tüm detaylarını, R kodlarını ve interaktif grafikleri içeren orijinal sunum dosyalarına aşağıdaki bağlantılardan erişebilirsiniz.
-
-
-<a href="/assets/html/thyfeb2021.html" target="_blank">Orijinal Sunumu Görüntüle</a>
-
 
 - [Ana Sunumu Görüntüle](/assets/html/twittersunum.html)
 - [Takipçilere Göre Ağ Yapısı Analizi](/assets/html/twittersunum1.html)
