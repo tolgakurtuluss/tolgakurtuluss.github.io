@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Etihad Airlines GPT Plugin with LangChain"
+title: "ghrepo - Etihad Airlines GPT Plugin with LangChain"
 subtitle: A LangChain Agent for Searching and Booking Etihad Flights
 gh-repo: tolgakurtuluss/EtihadAirlinesGPTPlugin-langchain
 gh-badge: [star, fork, follow]
-tags: [langchain, python, openai, gpt-plugin, airlines, flight-search, ai, agent]
+tags: [english, langchain, python, openai, gpt-plugin, airlines, ai, agent]
 comments: true
 author: Tolga
 ---

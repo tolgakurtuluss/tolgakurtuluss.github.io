@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "ShinyChatGPT"
+title: "ghrepo - ShinyChatGPT"
 subtitle: A ChatGPT Clone Built with R and Shiny
 gh-repo: tolgakurtuluss/shinychatgpt
 gh-badge: [star, fork, follow]
-tags: [r, shiny, chatgpt, openai, gpt, llm, ai]
+tags: [english, r, shiny, chatgpt, openai, gpt, llm, ai]
 comments: true
 author: Tolga
 ---

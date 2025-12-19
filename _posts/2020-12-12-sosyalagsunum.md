@@ -4,7 +4,7 @@ title: "Sosyal Ağ Analizi: Amazon Veriseti"
 subtitle: R ile birlikte alınan ürünlerin ağ yapısı üzerine bir inceleme
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
-tags: [R, Sosyal Ağ Analizi, Veri Görselleştirme, Amazon]
+tags: [turkish, R, Sosyal Ağ Analizi, Veri Görselleştirme, Amazon]
 comments: true
 author: Tolga
 ---

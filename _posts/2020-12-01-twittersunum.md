@@ -4,7 +4,7 @@ title: "Twitter Ağ Analizi (Pt-1): Kişisel Ağ"
 subtitle: "R, igraph ve visNetwork Kullanarak Etkileşim Haritası"
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
-tags: [R, Sosyal Ağ Analizi, Twitter, Veri Görselleştirme, igraph]
+tags: [turkish, R, Sosyal Ağ Analizi, Twitter, Veri Görselleştirme, igraph]
 comments: true
 author: Tolga
 ---

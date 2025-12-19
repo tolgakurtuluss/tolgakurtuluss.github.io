@@ -4,7 +4,7 @@ title: "Burger King'de En Besleyici Ürün Kombinasyonu: Python ile Optimizasyon
 subtitle: Python ile Knapsack Problem Çalışması
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
-tags: [R, python, optimizasyon, veri-analizi]
+tags: [turkish, R, python, optimizasyon, veri-analizi, medium]
 comments: true
 author: Tolga
 ---

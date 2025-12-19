@@ -4,7 +4,7 @@ title: "Twitter Ağ Analizi (Pt-2): Takipçi Etkileşimleri"
 subtitle: "Çekirdek Kullanıcı Grubuna Yönelik Etkileşimlerin İncelenmesi"
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
-tags: [R, Sosyal Ağ Analizi, Twitter, igraph, Takipçi Analizi]
+tags: [turkish, R, Sosyal Ağ Analizi, Twitter, igraph, Takipçi Analizi]
 comments: true
 author: Tolga
 ---

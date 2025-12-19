@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "ShinyGeminiPro"
+title: "ghrepo - ShinyGeminiPro"
 subtitle: A Multimodal Google Gemini Pro Chat App Built with R Shiny
 gh-repo: tolgakurtuluss/shinygeminipro
 gh-badge: [star, fork, follow]
-tags: [r, shiny, gemini, google-gemini, gemini, llm, ai, vision]
+tags: [english, r, shiny, gemini, google-gemini, gemini, llm, ai, vision]
 comments: true
 author: Tolga
 ---

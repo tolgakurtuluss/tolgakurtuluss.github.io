@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "LangChain Text Chunker"
+title: "ghrepo - LangChain Text Chunker"
 subtitle: An Interactive Tool for Splitting Text with Gradio
 gh-repo: tolgakurtuluss/langchain-text-chunker
 gh-badge: [star, fork, follow]
-tags: [langchain, python, rag, gradio, llm, ai]
+tags: [english, langchain, python, rag, gradio, llm, ai]
 comments: true
 author: Tolga
 ---
