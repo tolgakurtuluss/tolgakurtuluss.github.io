@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Twitter Ağ Analizi: Takip Edilenlerle Etkileşimler"
+title: "Twitter Ağ Analizi (Pt-3): Takip Edilenlerle Etkileşimler"
 subtitle: "Çekirdek Kullanıcı Grubunun Başlattığı Etkileşimlerin İncelenmesi"
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
@@ -39,4 +39,6 @@ Yapılan analiz, çekirdek grubun kendi içinde yoğun bir etkileşime sahip old
 {: .box-note}
 **Not:** Sadece takip edilenlerle olan etkileşimleri içeren bu özel analizin interaktif grafiğine ve detaylı metrik tablolarına aşağıdaki bağlantıdan ulaşabilirsiniz.
 
-- [Orijinal Sunumu Görüntüle](/assets/html/twittersunum2.html)
+- [Ana Sunumu Görüntüle (Pt-1)](/assets/html/twittersunum.html)
+- [Takipçilere Göre Ağ Yapısı Analizi (Pt-2)](/assets/html/twittersunum1.html)
+- [Takip Edilenlere Göre Ağ Yapısı Analizi (Pt-3)](/assets/html/twittersunum2.html)
