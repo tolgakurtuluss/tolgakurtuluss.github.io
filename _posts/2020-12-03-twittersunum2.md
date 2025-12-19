@@ -9,7 +9,7 @@ comments: true
 author: Tolga
 ---
 
-Bu blog yazısı, [ana Twitter ağ analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum.md) çalışmasının ikinci alt bölümü olarak, çekirdek kullanıcı grubunun kimlerle etkileşime girdiğini incelemektedir. [Bir önceki analizde](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum1.md) takipçilerden gelen etkileşimler incelenirken, bu çalışmada ise çekirdek grubun başlattığı (giden) etkileşimler mercek altına alınmıştır.
+Bu blog yazısı, [ana Twitter ağ analizi](twittersunum.md) çalışmasının ikinci alt bölümü olarak, çekirdek kullanıcı grubunun kimlerle etkileşime girdiğini incelemektedir. [Bir önceki analizde](twittersunum1.md) takipçilerden gelen etkileşimler incelenirken, bu çalışmada ise çekirdek grubun başlattığı (giden) etkileşimler mercek altına alınmıştır.
 
 ### Analizin Amacı
 
@@ -39,4 +39,4 @@ Yapılan analiz, çekirdek grubun kendi içinde yoğun bir etkileşime sahip old
 {: .box-note}
 **Not:** Sadece takip edilenlerle olan etkileşimleri içeren bu özel analizin interaktif grafiğine ve detaylı metrik tablolarına aşağıdaki bağlantıdan ulaşabilirsiniz.
 
-[Takip Edilenler Ağı Sunumunu Görüntüle](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum2.html)
+- [Orijinal Sunumu Görüntüle](/assets/html/twittersunum2.html)

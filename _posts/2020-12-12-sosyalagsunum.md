@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sosyal Ağ Analizi - "Amazon Veriseti"
+title: Sosyal Ağ Analizi: Amazon Alışveriş Veriseti
 subtitle: R ile birlikte alınan ürünlerin ağ yapısı üzerine bir inceleme
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
@@ -48,5 +48,4 @@ Bu analiz, ürünler arasındaki gizli ilişkileri ve müşteri satın alma davr
 {: .box-note}
 **Not:** Analizin tamamını, R kodlarını ve tüm interaktif görselleri içeren orijinal sunum dosyasına aşağıdan erişebilirsiniz.
 
-<a href="https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/sosyalagsunum.html" target="_blank">Orijinal Sunumu Görüntüle</a>
-
+- [Orijinal Sunumu Görüntüle](/assets/html/sosyalagsunum.html)

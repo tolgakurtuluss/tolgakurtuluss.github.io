@@ -53,6 +53,10 @@ Analiz sonucunda, kendi hesabım olan `tolgaakurtuluss`'un hem en çok etkileşi
 {: .box-note}
 **Not:** Analizin tüm detaylarını, R kodlarını ve interaktif grafikleri içeren orijinal sunum dosyalarına aşağıdaki bağlantılardan erişebilirsiniz.
 
-- [Ana Sunumu Görüntüle](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum.html)
-- [Takipçilere Göre Ağ Yapısı Analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum1.html)
-- [Takip Edilenlere Göre Ağ Yapısı Analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum2.html)
+
+<a href="/assets/html/thyfeb2021.html" target="_blank">Orijinal Sunumu Görüntüle</a>
+
+
+- [Ana Sunumu Görüntüle](/assets/html/twittersunum.html)
+- [Takipçilere Göre Ağ Yapısı Analizi](/assets/html/twittersunum1.html)
+- [Takip Edilenlere Göre Ağ Yapısı Analizi](/assets/html/twittersunum2.html)
