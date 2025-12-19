@@ -53,6 +53,6 @@ Analiz sonucunda, kendi hesabım olan `tolgaakurtuluss`'un hem en çok etkileşi
 {: .box-note}
 **Not:** Analizin tüm detaylarını, R kodlarını ve interaktif grafikleri içeren orijinal sunum dosyalarına aşağıdaki bağlantılardan erişebilirsiniz.
 
-- [Ana Sunumu Görüntüle](/assets/html/twittersunum.html)
-- [Takipçilere Göre Ağ Yapısı Analizi](/assets/html/twittersunum1.html)
-- [Takip Edilenlere Göre Ağ Yapısı Analizi](/assets/html/twittersunum2.html)
+- [Ana Sunumu Görüntüle (Pt-1)](/assets/html/twittersunum.html)
+- [Takipçilere Göre Ağ Yapısı Analizi (Pt-2)](/assets/html/twittersunum1.html)
+- [Takip Edilenlere Göre Ağ Yapısı Analizi (Pt-3)](/assets/html/twittersunum2.html)
