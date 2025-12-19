@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sosyal Ağ Analizi: Amazon Alışveriş Veriseti
+title: "Sosyal Ağ Analizi: Amazon Veriseti"
 subtitle: R ile birlikte alınan ürünlerin ağ yapısı üzerine bir inceleme
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
