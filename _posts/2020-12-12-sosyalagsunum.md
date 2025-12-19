@@ -48,4 +48,4 @@ Bu analiz, ürünler arasındaki gizli ilişkileri ve müşteri satın alma davr
 {: .box-note}
 **Not:** Analizin tamamını, R kodlarını ve tüm interaktif görselleri içeren orijinal sunum dosyasına aşağıdan erişebilirsiniz.
 
-[Orijinal Sunumu Görüntüle](_posts/html/sosyalagsunum.html)
+<a href="/_posts/html/sosyalagsunum.html" target="_blank">Orijinal Sunumu Görüntüle</a>
