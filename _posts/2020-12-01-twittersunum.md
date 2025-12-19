@@ -6,7 +6,7 @@ gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
 tags: [R, Sosyal Ağ Analizi, Twitter, Veri Görselleştirme, igraph]
 comments: true
-author: Tolga Kurtuluş
+author: Tolga
 ---
 
 Bu blog yazısında, kişisel bir Twitter hesabının etkileşim verileri üzerinden gerçekleştirilen sosyal ağ analizi çalışması özetlenmektedir. Çalışmada, kullanıcılar arasındaki `mention` ve `reply` gibi etkileşimler bir ağ yapısı olarak ele alınmış ve `R` programlama dili ile analiz edilmiştir.
@@ -53,6 +53,6 @@ Analiz sonucunda, kendi hesabım olan `tolgaakurtuluss`'un hem en çok etkileşi
 {: .box-note}
 **Not:** Analizin tüm detaylarını, R kodlarını ve interaktif grafikleri içeren orijinal sunum dosyalarına aşağıdaki bağlantılardan erişebilirsiniz.
 
-- [Ana Sunumu Görüntüle](./html/twittersunum.html)
-- [Takipçilere Göre Ağ Yapısı Analizi](./html/twittersunum1.html)
-- [Takip Edilenlere Göre Ağ Yapısı Analizi](./html/twittersunum2.html)
+- [Ana Sunumu Görüntüle](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum.html)
+- [Takipçilere Göre Ağ Yapısı Analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum1.html)
+- [Takip Edilenlere Göre Ağ Yapısı Analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum2.html)

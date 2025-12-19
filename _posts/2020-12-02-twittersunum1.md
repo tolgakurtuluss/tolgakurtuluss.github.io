@@ -6,10 +6,10 @@ gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
 tags: [R, Sosyal Ağ Analizi, Twitter, igraph, Takipçi Analizi]
 comments: true
-author: Tolga Kurtuluş
+author: Tolga
 ---
 
-Bu yazı, daha önce [ana Twitter ağ analizi](./html/twittersunum.md) çalışmasında incelenen veri setinin bir alt kümesine odaklanmaktadır. Bu özel analizde, yalnızca belirlenen çekirdek kullanıcı grubuna yönelik olarak dışarıdan gelen etkileşimler (mention'lar ve reply'lar) ele alınmıştır. Bu, bir nevi "takipçi ağı"nın yapısını ve dinamiklerini ortaya koymaktadır.
+Bu yazı, daha önce [ana Twitter ağ analizi](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum.md) çalışmasında incelenen veri setinin bir alt kümesine odaklanmaktadır. Bu özel analizde, yalnızca belirlenen çekirdek kullanıcı grubuna yönelik olarak dışarıdan gelen etkileşimler (mention'lar ve reply'lar) ele alınmıştır. Bu, bir nevi "takipçi ağı"nın yapısını ve dinamiklerini ortaya koymaktadır.
 
 ### Analizin Amacı
 
@@ -44,4 +44,4 @@ Bu odaklanmış analiz, çekirdek kullanıcı grubunun en çok hangi takipçiler
 {: .box-note}
 **Not:** Sadece takipçi etkileşimlerini içeren bu özel analizin interaktif grafiğine ve detaylı metrik tablolarına aşağıdaki bağlantıdan ulaşabilirsiniz.
 
-[Takipçi Ağı Sunumunu Görüntüle](./html/twittersunum1.html)
+[Takipçi Ağı Sunumunu Görüntüle](https://raw.githubusercontent.com/tolgakurtuluss/tolgakurtuluss.github.io/refs/heads/master/_posts/html/twittersunum1.html)
