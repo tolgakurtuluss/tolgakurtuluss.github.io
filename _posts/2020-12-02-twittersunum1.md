@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Twitter Ağ Analizi (Pt-2): Takipçi Etkileşimleri"
+title: "Twitter Ağ Analizi (Pt-2): Takipçi Etkileşimleri"
 subtitle: "Çekirdek Kullanıcı Grubuna Yönelik Etkileşimlerin İncelenmesi"
 gh-repo: tolgakurtuluss/tolgakurtuluss.github.io
 gh-badge: [star, fork, follow]
